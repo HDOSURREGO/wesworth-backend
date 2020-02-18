@@ -56,12 +56,16 @@ app.locals.title = "Wesworth Backend";
 const index = require("./routes/index");
 app.use("/", index);
 
-app.use(cors());
+app.use(
+	cors({
+		origin: ["http://localhost:3000"]
+	})
+);
 app.use(express.json());
 app.use("/", router);
 app.listen(3000);
 
-const formsRoutes = require("./routes/forms-routes");
-app.use("/", formsRoutes);
+// const formsRoutes = require("./routes/forms-routes");
+app.use("/", require("./routes/forms-routes"));
 
 module.exports = app;
