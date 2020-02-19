@@ -38,8 +38,6 @@ router.post("electric/send", (req, res, next) => {
 	var content = `companyName: ${companyName} \n email: ${emailAddress} \n message: ${message} `; //test with this content only final version to have them all
 });
 
-module.exports = router;
-
 var mail = {
 	from: name,
 	to: "henry@esquemainc.com", // Change to email address that you want to receive messages on
@@ -47,15 +45,16 @@ var mail = {
 	text: content
 };
 
-	transporter.sendMail(mail, (err, data) => {
-		if (err) {
-			res.json({
-				status: "fail"
-			});
-		} else {
-			res.json({
-				status: "success"
-			});
-		}
-	});
+transporter.sendMail(mail, (err, data) => {
+	if (err) {
+		res.json({
+			status: "fail"
+		});
+	} else {
+		res.json({
+			status: "success"
+		});
+	}
 });
+
+module.exports = router;
