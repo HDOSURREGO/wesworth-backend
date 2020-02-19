@@ -65,7 +65,6 @@ app.use(express.json());
 app.use("/", router);
 app.listen(3000);
 
-// const formsRoutes = require("./routes/forms-routes");
-app.use("/", require("./routes/forms-routes"));
+app.use("/electric/send", require("./routes/forms-routes"));
 
 module.exports = app;
