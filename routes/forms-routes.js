@@ -35,7 +35,7 @@ router.post("electric/send", (req, res, next) => {
 	var zipCode = req.body.zipCode;
 	var emailAddress = req.body.emailAddress;
 	var message = req.body.message;
-	var content = `companyName: ${companyName} \n email: ${emailAddress} \n message: ${message} `;
+	var content = `companyName: ${companyName} \n email: ${emailAddress} \n message: ${message} `; //test with this content only final version to have them all
 });
 
 module.exports = router;
