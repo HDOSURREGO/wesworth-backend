@@ -25,7 +25,7 @@ transporter.verify((error, success) => {
 	}
 });
 
-router.post("electric/send", (req, res, next) => {
+router.post("/electric/send", (req, res, next) => {
 	console.log("Frontend data:", req.body);
 	var companyName = req.body.companyName;
 	var personToContact = req.body.personToContact;
