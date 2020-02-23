@@ -29,13 +29,14 @@ router.post("/electric/send", (req, res, next) => {
 	console.log("Frontend data:", req.body);
 	var companyName = req.body.companyName;
 	var personToContact = req.body.personToContact;
+	var contactPhone = req.body.contactPhone;
 	var streetAddress = req.body.streetAddress;
 	var city = req.body.city;
 	var state = req.body.state;
 	var zipCode = req.body.zipCode;
 	var emailAddress = req.body.emailAddress;
 	var message = req.body.message;
-	var content = `companyName: ${companyName} \n email: ${emailAddress} \n message: ${message} `; //test with this content only final version to have them all
+	var content = `Company Name: ${companyName} \n Person To Contact: ${personToContact} \n Contact Phone: ${contactPhone}  \n Street Address: ${streetAddress} \n City: ${city} \n State: ${state} \n Zip Code: ${zipCode} \n Email Address: ${emailAddress} \n Message: ${message} `;
 
 	var mail = {
 		from: companyName,
