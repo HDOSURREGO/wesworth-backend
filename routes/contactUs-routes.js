@@ -33,7 +33,7 @@ router.post("/contactUs", (req, res, next) => {
 	var content = `Name: ${nameFromContactUs} \n Email Address: ${emailAddress} \n Message: ${message}`;
 
 	var mail = {
-		from: name,
+		from: nameFromContactUs,
 		to: "henry@esquemainc.com", // Change to email address that you want to receive messages on
 		subject: "New Message from Contact Us Form",
 		text: content
