@@ -57,6 +57,7 @@ const index = require("./routes/index");
 app.use("/", index);
 
 app.use("/", require("./routes/forms-routes"));
+app.use("/", require("./routes/contactUs-routes"));
 
 app.use("/", router);
 
