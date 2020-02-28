@@ -41,7 +41,7 @@ router.post("/electric/send", (req, res, next) => {
 	var mail = {
 		from: companyName,
 		to: "henry@esquemainc.com", // Change to email address that you want to receive messages on
-		subject: "New Message from Contact Form",
+		subject: "New Message from Schedule a Service Form",
 		text: content
 	};
 
