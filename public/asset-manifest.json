@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c2d5f3ac.chunk.css",
+    "main.js": "./static/js/main.54ed6a69.chunk.js",
+    "main.js.map": "./static/js/main.54ed6a69.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.bc5cab3b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.bc5cab3b.js.map",
+    "static/js/2.7f9acbc4.chunk.js": "./static/js/2.7f9acbc4.chunk.js",
+    "static/js/2.7f9acbc4.chunk.js.map": "./static/js/2.7f9acbc4.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.5f75c25c2ea0e2b9a52699ec2a4f86ff.js": "./precache-manifest.5f75c25c2ea0e2b9a52699ec2a4f86ff.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.c2d5f3ac.chunk.css.map": "./static/css/main.c2d5f3ac.chunk.css.map",
+    "static/js/2.7f9acbc4.chunk.js.LICENSE": "./static/js/2.7f9acbc4.chunk.js.LICENSE",
+    "static/media/WBuilders_transparente.png": "./static/media/WBuilders_transparente.d70bd0a1.png",
+    "static/media/WCG_White.png": "./static/media/WCG_White.936e3032.png",
+    "static/media/WElectric_transparente.png": "./static/media/WElectric_transparente.e15cbe64.png",
+    "static/media/WManagement_transparente.png": "./static/media/WManagement_transparente.2ba3c1c1.png",
+    "static/media/WcgBackgroundFlippedPano.jpg": "./static/media/WcgBackgroundFlippedPano.439ecbcd.jpg",
+    "static/media/builder_services_cmyk_50opacity.jpg": "./static/media/builder_services_cmyk_50opacity.89d440e5.jpg",
+    "static/media/builders-under-construction.jpg": "./static/media/builders-under-construction.cf979c97.jpg",
+    "static/media/commercial_services_cmyk_half_50opacity.jpg": "./static/media/commercial_services_cmyk_half_50opacity.6139e0ca.jpg",
+    "static/media/Footer.css": "./static/media/contactus-background.c29edc65.jpg",
+    "static/media/futuraStd-Medium.otf": "./static/media/futuraStd-Medium.95893071.otf",
+    "static/media/futuraStdBold.otf": "./static/media/futuraStdBold.f7339bec.otf",
+    "static/media/futuraStdBook.otf": "./static/media/futuraStdBook.00636e0a.otf",
+    "static/media/futuraStdHeavy.otf": "./static/media/futuraStdHeavy.0d7fbc4c.otf",
+    "static/media/futuraStdHeavyOblique.otf": "./static/media/futuraStdHeavyOblique.6d7cde7d.otf",
+    "static/media/industrial_services_composition_50opacity.jpg": "./static/media/industrial_services_composition_50opacity.598d9f56.jpg",
+    "static/media/management-under-construction.jpg": "./static/media/management-under-construction.b9bcdb73.jpg",
+    "static/media/property_management_services_cmyk_50opacity.jpg": "./static/media/property_management_services_cmyk_50opacity.9471fcf4.jpg",
+    "static/media/residential_services_2.jpg": "./static/media/residential_services_2.e1df4fae.jpg",
+    "static/media/schedule-service.jpg": "./static/media/schedule-service.2bc28505.jpg",
+    "static/media/wesworth-building-render-50opacity.jpg": "./static/media/wesworth-building-render-50opacity.ad9ee60a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc5cab3b.js",
+    "static/js/2.7f9acbc4.chunk.js",
+    "static/css/main.c2d5f3ac.chunk.css",
+    "static/js/main.54ed6a69.chunk.js"
+  ]
+}
