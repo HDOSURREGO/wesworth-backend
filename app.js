@@ -11,7 +11,9 @@ const path = require("path");
 const router = express.Router();
 
 mongoose
-	.connect("mongodb://localhost/wesworth-backend", { useNewUrlParser: true })
+	.connect(process.env.MONGODB_URI, {
+		useNewUrlParser: true
+	})
 	.then(x => {
 		console.log(
 			`Connected to Mongo! Database name: "${x.connections[0].name}"`
@@ -60,5 +62,10 @@ app.use("/", require("./routes/forms-routes"));
 app.use("/", require("./routes/contactUs-routes"));
 
 app.use("/", router);
+
+app.use((req, res, next) => {
+	// If no routes match, send them the React HTML.
+	res.sendFile(__dirname + "/public/index.html");
+});
 
 module.exports = app;
